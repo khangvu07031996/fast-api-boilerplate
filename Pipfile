@@ -12,6 +12,7 @@ pylint = "*"
 python-dotenv = "*"
 sqlalchemy = "*"
 psycopg2-binary = "*"
+pydantic = "*"
 
 [requires]
 python_version = "3.8"
