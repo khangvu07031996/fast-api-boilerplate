@@ -11,6 +11,7 @@ RUN set -ex && pipenv install --deploy --system
 
 COPY . /app
 
+# -- run service
 CMD ["python3", "main.py"]
 
 
